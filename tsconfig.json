@@ -4,20 +4,13 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "target": "es2019",
-    "jsx": "react",
     "module": "commonjs",
     "sourceMap": true,
     "outDir": "./dist/",
     "skipLibCheck": true,
-    "lib": [
-      "DOM"
-    ]
+    "lib": ["DOM"],
+    "strictPropertyInitialization": false
   },
-  "exclude": [
-    "./src/server "
-  ],
-  "include": [
-    "./src/client/*",
-    "./src/client/types/**/*.d.ts"
-  ]
+  "exclude": ["./src/server "],
+  "include": ["./src/client/*", "./src/client/types/**/*.d.ts"]
 }
